@@ -84,4 +84,53 @@ VITE_BASE_URL=picwish_api_url
 
 ---
 
+## 📸 How It Works
 
+1. User uploads an image.
+2. The image is sent to the **PicWish API**.
+3. API generates a **Task ID** for processing.
+4. The application continuously polls the API.
+5. Once processing is complete, the **enhanced image** is returned and displayed to the user.
+
+---
+
+## 🎯 Learning Outcomes
+
+This project helped in understanding:
+
+* API integration in React
+* Handling asynchronous requests
+* File uploads in React
+* Responsive UI development
+* Environment variables management
+* Clean component-based architecture
+
+---
+
+## 📱 Responsive Design
+
+The UI is designed using **Tailwind CSS**, ensuring the application works smoothly on:
+
+* Mobile devices
+* Tablets
+* Desktop screens
+
+---
+
+## 🔮 Future Improvements
+
+* Drag & Drop image upload
+* Image download option
+* Image comparison slider (Before vs After)
+* Multiple image uploads
+* Dark mode support
+
+---
+
+## 👨‍💻 Author
+
+**Sachin Kumar Kushwaha**
+
+---
+
+⭐ If you like this project, consider giving it a **star on GitHub**!
